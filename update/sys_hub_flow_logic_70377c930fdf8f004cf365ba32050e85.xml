@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">25cbfb830f5f8f004cf365ba32050eff</block>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="createActions v2">7c373c930fdf8f004cf365ba32050eea</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 21:59:20</sys_created_on>
+        <sys_id>70377c930fdf8f004cf365ba32050e85</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_70377c930fdf8f004cf365ba32050e85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 21:59:20</sys_updated_on>
+        <ui_id>54e587f8-dafe-48c7-923d-40aca6dc8b20</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=70377c930fdf8f004cf365ba32050e85"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>70377c930fdf8f004cf365ba32050e85</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 21:59:20</sys_created_on>
+        <sys_id>fc377c930fdf8f004cf365ba32050e86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 21:59:20</sys_updated_on>
+        <value>{{31fdd7e0-96f6-4ef9-be19-33508aa06d45.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+</record_update>

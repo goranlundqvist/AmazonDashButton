@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"6307266a-8bf3-46be-a5cf-d9a657117c68.Records","label":"1➛Action Records","reference":"x_8294_aws_dash_action","reference_display":"Action Records"},{"name":"6e327de2-5b5c-418e-9d8f-882105b840bf.item","label":"2➛Action Record","reference":"x_8294_aws_dash_action","reference_display":"Action Record"},{"name":"6307266a-8bf3-46be-a5cf-d9a657117c68.Table","label":"1➛Action Table","reference":"x_8294_aws_dash_action","reference_display":"Action Table"},{"name":"6307266a-8bf3-46be-a5cf-d9a657117c68.Count","label":"1➛Count","reference_display":"Count"},{"name":"Created_1.current","label":"Trigger➛Button Events Record","reference":"x_8294_aws_dash_button_events","reference_display":"Button Events","type":"reference","base_type":"reference"},{"name":"94ec195f-140f-4df5-be79-7fcb67a1ef09.ismatch","label":"2.1➛isMatch","type":"string","base_type":"string"}]</label_cache>
+        <name>createActions v2</name>
+        <parent_flow display_value="createActions v2">84062f870f1f8f004cf365ba32050ea1</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 16:08:01</sys_created_on>
+        <sys_id>6ac6ef870f1f8f004cf365ba32050e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>createActions v2</sys_name>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_6ac6ef870f1f8f004cf365ba32050e83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 16:08:01</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

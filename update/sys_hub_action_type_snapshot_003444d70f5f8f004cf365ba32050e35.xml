@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_actionrecord}}","label":"action➛actionRecord","type":"action","ref":"x_8294_aws_dash_action"},{"name":"{{action.ah_currentevent}}","label":"action➛currentEvent","type":"action","ref":"x_8294_aws_dash_button_events"}]</label_cache>
+        <name>create Action Record</name>
+        <outputs/>
+        <parent_action display_value="create Action Record">07f288970f5f8f004cf365ba32050e5f</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 18:16:27</sys_created_on>
+        <sys_id>003444d70f5f8f004cf365ba32050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>create Action Record</sys_name>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_003444d70f5f8f004cf365ba32050e35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 18:16:27</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=003444d70f5f8f004cf365ba32050e35"/>
+    <sys_variable_value action="delete_multiple" query="document_key=003444d70f5f8f004cf365ba32050e35"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description/>
+        <label_cache>[{"name":"345a3ed0-43aa-47e9-92df-20e50713e28c.item","label":"2➛Action Record","reference":"x_8294_aws_dash_action","reference_display":"Action","type":"reference","base_type":"reference"},{"name":"5b79b264-92ae-40fc-8400-e543a6e4ced1.item","label":"2➛Action Record","reference":"x_8294_aws_dash_action","reference_display":"Action","type":"reference","base_type":"reference"},{"name":"1ee296b1-c563-4052-b5fe-ae032e22f53d.parameter","label":"2.1➛test ","reference_display":"test "},{"name":"54e587f8-dafe-48c7-923d-40aca6dc8b20.item.table","label":"2➛Action Record➛Table","reference":"","reference_display":"Table","type":"table_name","base_type":"table_name","parent_table_name":"x_8294_aws_dash_action","column_name":"table"},{"name":"54e587f8-dafe-48c7-923d-40aca6dc8b20.item.field_values","label":"2➛Action Record➛Field Values","reference":"","reference_display":"Field Values","type":"template_value","base_type":"template_value","parent_table_name":"x_8294_aws_dash_action","column_name":"field_values"},{"name":"1ee296b1-c563-4052-b5fe-ae032e22f53d.ismatch","label":"2.1➛isMatch","reference_display":"isMatch"},{"name":"Created_1.current","label":"Trigger➛Button Events Record","reference":"x_8294_aws_dash_button_events","reference_display":"Button Events","type":"reference","base_type":"reference"},{"name":"54e587f8-dafe-48c7-923d-40aca6dc8b20.item","label":"2➛Action Record","reference":"x_8294_aws_dash_action","reference_display":"Action Record"},{"name":"31fdd7e0-96f6-4ef9-be19-33508aa06d45.Records","label":"1➛Action Records","reference":"x_8294_aws_dash_action","reference_display":"Action","type":"records","base_type":"records"},{"name":"59e48507-a3e7-474e-b4fc-cbf6667a5f0f.item.active","label":"3➛Action Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_8294_aws_dash_action","column_name":"active"},{"name":"31fdd7e0-96f6-4ef9-be19-33508aa06d45.Table","label":"1➛Action Table","reference":"x_8294_aws_dash_action","reference_display":"Action Table"},{"name":"31fdd7e0-96f6-4ef9-be19-33508aa06d45.Count","label":"1➛Count","reference_display":"Count"},{"name":"abdb200f-24d7-42bb-a0f6-b91e871982e6.record","label":"2.2.1➛Record","reference_display":"Record"},{"name":"abdb200f-24d7-42bb-a0f6-b91e871982e6.table_name","label":"2.2.1➛Table","reference_display":"Table"},{"name":"59e48507-a3e7-474e-b4fc-cbf6667a5f0f.item","label":"3➛Action Record","reference":"x_8294_aws_dash_action","reference_display":"Action Record"},{"name":"59e48507-a3e7-474e-b4fc-cbf6667a5f0f.item.advanced","label":"3➛Action Record➛Advanced","reference":"","reference_display":"Advanced","type":"boolean","base_type":"boolean","parent_table_name":"x_8294_aws_dash_action","column_name":"advanced"},{"name":"54e587f8-dafe-48c7-923d-40aca6dc8b20.item.create_record","label":"2➛Action Record➛Create record","reference":"","reference_display":"Create record","type":"boolean","base_type":"boolean","parent_table_name":"x_8294_aws_dash_action","column_name":"create_record"}]</label_cache>
+        <latest_snapshot/>
+        <name>createActions v2</name>
+        <remote_trigger_id/>
+        <show_draft_actions>true</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 16:04:34</sys_created_on>
+        <sys_id>84062f870f1f8f004cf365ba32050ea1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>createActions v2</sys_name>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_flow_84062f870f1f8f004cf365ba32050ea1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-11 16:23:43</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

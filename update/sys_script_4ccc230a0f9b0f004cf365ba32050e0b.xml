@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_8294_aws_dash_button_events</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create actions</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var findAction = new GlideRecord('x_8294_aws_dash_action');
+	findAction.addActiveQuery();
+	findAction.query();
+
+	while(findAction.next()){
+		var match = GlideFilter.checkRecord(current, findAction.condition, true);
+
+
+		if(match){
+
+			var checkActiveRecord = new GlideRecord(findAction.table);
+			checkActiveRecord.addActiveQuery();
+			checkActiveRecord.addQuery('cmdb_ci', current.button);
+			checkActiveRecord.setLimit(1);
+			checkActiveRecord.query();
+			if (!checkActiveRecord.hasNext() || (checkActiveRecord.hasNext() && !findAction.active_exist)){
+		
+				var applyAction = new GlideRecord(findAction.table);
+				applyAction.newRecord();
+				applyAction.applyEncodedQuery(findAction.field_values);
+				var actionSysID = applyAction.insert();
+
+				var createActionLog = new GlideRecord('x_8294_aws_dash_action_log');
+				createActionLog.newRecord();
+				createActionLog.setValue('record_table', findAction.table);
+				createActionLog.setValue('record_sysid', actionSysID);
+				createActionLog.setValue('action', findAction.getUniqueValue());
+				createActionLog.setValue('event', current.getUniqueValue());
+				createActionLog.insert();
+			}
+			else {
+				gs.info("Just for testing, exist active ticket for button " + current.button.getDisplayValue() + " and table " +  findAction.table );
+				
+			}
+
+			if (findAction.script){
+				var evaluator = new GlideScopedEvaluator();
+				evaluator.evaluateScript(findAction, 'script');
+			}	
+		}
+	} 
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-29 14:07:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ccc230a0f9b0f004cf365ba32050e0b</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Create actions</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_script_4ccc230a0f9b0f004cf365ba32050e0b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 18:27:18</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4ccc230a0f9b0f004cf365ba32050e0b"/>
+</record_update>

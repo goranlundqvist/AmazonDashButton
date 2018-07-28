@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="advanced" label="Advanced" language="en" table="x_8294_aws_dash_action">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>advanced</element>
+            <help/>
+            <hint/>
+            <label>Advanced</label>
+            <language>en</language>
+            <name>x_8294_aws_dash_action</name>
+            <plural>Advanced</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 14:41:00</sys_created_on>
+            <sys_id>b216374e0f9b0f004cf365ba32050ec8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Advanced</sys_name>
+            <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+            <sys_update_name>sys_documentation_x_8294_aws_dash_action_advanced_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 14:41:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

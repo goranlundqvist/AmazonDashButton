@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_8294_aws_dash_action_log" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>action</element>
+            <list_id display_value="x_8294_aws_dash_action_log" element="NULL" name="x_8294_aws_dash_action_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35b0e9d60f9f0f004cf365ba32050e93</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 22:26:47</sys_created_on>
+            <sys_id>bdb0e9d60f9f0f004cf365ba32050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 22:26:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event</element>
+            <list_id display_value="x_8294_aws_dash_action_log" element="NULL" name="x_8294_aws_dash_action_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35b0e9d60f9f0f004cf365ba32050e93</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 22:26:47</sys_created_on>
+            <sys_id>35b0e9d60f9f0f004cf365ba32050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 22:26:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>record_sysid</element>
+            <list_id display_value="x_8294_aws_dash_action_log" element="NULL" name="x_8294_aws_dash_action_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35b0e9d60f9f0f004cf365ba32050e93</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 22:26:47</sys_created_on>
+            <sys_id>b5b0e9d60f9f0f004cf365ba32050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 22:26:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>record_table</element>
+            <list_id display_value="x_8294_aws_dash_action_log" element="NULL" name="x_8294_aws_dash_action_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35b0e9d60f9f0f004cf365ba32050e93</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 22:26:47</sys_created_on>
+            <sys_id>39b0e9d60f9f0f004cf365ba32050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 22:26:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_8294_aws_dash_action_log</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 22:26:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35b0e9d60f9f0f004cf365ba32050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_8294_aws_dash_action_log</sys_name>
+            <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+            <sys_update_name>sys_ui_list_x_8294_aws_dash_action_log_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 22:26:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

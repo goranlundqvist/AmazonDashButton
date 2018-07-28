@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Action" max_length="40" name="x_8294_aws_dash_action" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Don't create if active record exist" max_length="40" name="active_exist" type="boolean"/>
+        <element label="Advanced" max_length="40" name="advanced" type="boolean"/>
+        <element label="Close ticket on Long click" max_length="40" name="close_long" type="boolean"/>
+        <element attributes="staticDependent=x_8294_aws_dash_button_events,readable=true" label="Condition" max_length="4000" name="condition" type="conditions"/>
+        <element label="Create record" max_length="40" name="create_record" type="boolean"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element dependent="table" dependent_on_field="table" label="Field Values" max_length="4000" name="field_values" type="template_value" use_dependent_field="true"/>
+        <element dependent="table" dependent_on_field="table" label="Script" max_length="8000" name="script" type="script" use_dependent_field="true"/>
+        <element display="true" label="Name" max_length="100" name="string" type="string"/>
+        <element label="Table" max_length="80" name="table" type="table_name"/>
+    </element>
+</database>

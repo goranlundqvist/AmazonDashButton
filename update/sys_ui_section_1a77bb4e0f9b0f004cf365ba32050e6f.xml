@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="When to run" section_id="1a77bb4e0f9b0f004cf365ba32050e6f" sys_domain="global" table="x_8294_aws_dash_action" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>condition</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 14:47:35</sys_created_on>
+            <sys_id>4f97ff4e0f9b0f004cf365ba32050eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="When to run" display_value="When to run" name="x_8294_aws_dash_action" sys_domain="global" view="Default view">1a77bb4e0f9b0f004cf365ba32050e6f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 14:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>When to run</caption>
+            <header>false</header>
+            <name>x_8294_aws_dash_action</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 14:46:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a77bb4e0f9b0f004cf365ba32050e6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>When to run</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+            <sys_update_name>sys_ui_section_1a77bb4e0f9b0f004cf365ba32050e6f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 14:46:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

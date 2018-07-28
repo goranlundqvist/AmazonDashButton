@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="record_table" label="Record created in table" language="en" table="x_8294_aws_dash_action_log">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>record_table</element>
+            <help/>
+            <hint/>
+            <label>Record created in table</label>
+            <language>en</language>
+            <name>x_8294_aws_dash_action_log</name>
+            <plural>Record created in tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-29 22:06:46</sys_created_on>
+            <sys_id>202c55160f9f0f004cf365ba32050ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Record created in table</sys_name>
+            <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+            <sys_update_name>sys_documentation_x_8294_aws_dash_action_log_record_table_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-29 22:06:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

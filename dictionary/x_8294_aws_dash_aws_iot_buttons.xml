@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci" label="AwS IoT Buttons" max_length="40" name="x_8294_aws_dash_aws_iot_buttons" sizeclass="1" text_index="true" type="collection">
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+    </element>
+</database>

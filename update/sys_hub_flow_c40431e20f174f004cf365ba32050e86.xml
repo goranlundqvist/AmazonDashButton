@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description/>
+        <label_cache>[{"name":"04ddce34-8793-4616-ad0d-f3b1c10d1532.item","label":"2➛Action Record","reference":"x_8294_aws_dash_action","reference_display":"Action","type":"reference","base_type":"reference"},{"name":"827bdea0-336d-40f9-baac-42976a529b57.Records","label":"1➛Action Records","reference":"x_8294_aws_dash_action","reference_display":"Action","type":"records","base_type":"records"},{"name":"Created_1.current","label":"Trigger➛Button Events Record","reference":"x_8294_aws_dash_button_events","reference_display":"Button Events","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <name>Create actions</name>
+        <remote_trigger_id/>
+        <show_draft_actions>false</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-30 18:29:31</sys_created_on>
+        <sys_id>c40431e20f174f004cf365ba32050e86</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create actions</sys_name>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_flow_c40431e20f174f004cf365ba32050e86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 15:35:47</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

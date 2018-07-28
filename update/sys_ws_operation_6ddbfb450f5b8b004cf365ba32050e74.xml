@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Incoming clicks</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	var answer = {};
+	
+	var buttonID = request.body.data.serialNumber;
+	var button = checkButton(buttonID);
+	if(button){
+		var voltage = parseInt(request.body.data.batteryVoltage.replace('mv',''),10);
+		var clickType = request.body.data.clickType;
+
+		var buttonEvent = new GlideRecord('x_8294_aws_dash_button_events');
+		buttonEvent.newRecord();
+		buttonEvent.button = button.getValue('sys_id');
+		buttonEvent.voltage = voltage;
+		buttonEvent.click_type = clickType;
+		buttonEvent.insert();
+
+		answer.status ="Button event registered";
+		response.setStatus(200);
+	}
+	else {
+		//Perhaps create an incident or similar
+		gs.error("An AwS IoT Dash Button has been pressed, but it isn't registered. ID: " + buttonID);
+		answer.status = "Can't register event, unknown button";
+		response.setStatus(400);
+	}
+		
+	response.setBody(answer);
+	
+	function checkButton(serialNum){
+		var getButton = new GlideRecord('x_8294_aws_dash_aws_iot_buttons');
+		if(getButton.get('serial_number', serialNum))
+			return getButton;
+		return;
+	}
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_8294_aws_dash/dashbuttons</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-26 12:33:19</sys_created_on>
+        <sys_id>6ddbfb450f5b8b004cf365ba32050e74</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Incoming clicks</sys_name>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_ws_operation_6ddbfb450f5b8b004cf365ba32050e74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-26 14:04:46</sys_updated_on>
+        <web_service_definition display_value="Dashbuttons">cfbbbb450f5b8b004cf365ba32050e25</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

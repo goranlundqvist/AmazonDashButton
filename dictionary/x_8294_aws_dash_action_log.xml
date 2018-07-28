@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Action log" max_length="40" name="x_8294_aws_dash_action_log" type="collection">
+        <element label="Action" max_length="32" name="action" reference="x_8294_aws_dash_action" type="reference"/>
+        <element label="Event" max_length="32" name="event" reference="x_8294_aws_dash_button_events" type="reference"/>
+        <element attributes="show_all_tables" dependent="record_table" dependent_on_field="record_table" label="Record sysID" max_length="32" name="record_sysid" type="document_id" use_dependent_field="true"/>
+        <element label="Record created in table" max_length="40" name="record_table" type="string"/>
+        <index name="index">
+            <element name="action"/>
+        </index>
+        <index name="index2">
+            <element name="event"/>
+        </index>
+        <index name="index3">
+            <element name="record_sysid"/>
+        </index>
+    </element>
+</database>

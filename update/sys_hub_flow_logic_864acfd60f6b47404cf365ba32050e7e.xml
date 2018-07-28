@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c24acfd60f6b47404cf365ba32050e7d</block>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="createActions v2">84062f870f1f8f004cf365ba32050ea1</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.3</order>
+        <parent_ui_id>345a3ed0-43aa-47e9-92df-20e50713e28c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-11 16:23:43</sys_created_on>
+        <sys_id>864acfd60f6b47404cf365ba32050e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_864acfd60f6b47404cf365ba32050e7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-11 16:23:43</sys_updated_on>
+        <ui_id>bd84ccce-48b1-464b-8ac6-db87ed3f8a1f</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=864acfd60f6b47404cf365ba32050e7e"/>
+</record_update>

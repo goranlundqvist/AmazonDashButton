@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="due" label="Due" language="en" table="x_8294_aws_dash_aws_iot_buttons">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>due</element>
+            <help/>
+            <hint/>
+            <label>Due</label>
+            <language>en</language>
+            <name>x_8294_aws_dash_aws_iot_buttons</name>
+            <plural>Dues</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-26 13:04:54</sys_created_on>
+            <sys_id>f15340990f5b8b004cf365ba32050e4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Due</sys_name>
+            <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+            <sys_update_name>sys_documentation_x_8294_aws_dash_aws_iot_buttons_due_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-26 13:04:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

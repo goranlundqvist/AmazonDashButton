@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Button Events" max_length="40" name="x_8294_aws_dash_button_events" type="collection">
+        <element label="Button" max_length="32" name="button" reference="x_8294_aws_dash_aws_iot_buttons" type="reference"/>
+        <element choice="1" label="Click type" max_length="40" name="click_type" type="choice">
+            <choice>
+                <element label="Single" sequence="1" value="SINGLE"/>
+                <element label="Double" sequence="2" value="DOUBLE"/>
+                <element label="Long" sequence="3" value="LONG"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Voltage" max_length="40" name="voltage" type="integer"/>
+        <index name="index">
+            <element name="button"/>
+        </index>
+    </element>
+</database>

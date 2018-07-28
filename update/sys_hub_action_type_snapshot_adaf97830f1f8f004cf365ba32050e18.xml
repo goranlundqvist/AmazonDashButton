@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_actrec}}","label":"action➛actRec","type":"action","ref":"x_8294_aws_dash_action"},{"name":"{{action.ah_currentevent}}","label":"action➛CurrentEvent","type":"action","ref":"x_8294_aws_dash_button_events"},{"name":"{{step[59f722d3-ba86-48b8-b15f-5fae30b17fd9].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[59f722d3-ba86-48b8-b15f-5fae30b17fd9].filterMatch}}","label":"step➛Script step➛filterMatch","type":"step","ref":""}]</label_cache>
+        <name>Filter Actions</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Filter Actions">3de2174b0fdb8f004cf365ba32050e87</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 15:36:49</sys_created_on>
+        <sys_id>adaf97830f1f8f004cf365ba32050e18</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Filter Actions</sys_name>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_adaf97830f1f8f004cf365ba32050e18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 15:36:50</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=adaf97830f1f8f004cf365ba32050e18"/>
+    <sys_variable_value action="delete_multiple" query="document_key=adaf97830f1f8f004cf365ba32050e18"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>adaf97830f1f8f004cf365ba32050e18</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 15:36:50</sys_created_on>
+        <sys_id>b1af97830f1f8f004cf365ba32050e73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 15:36:50</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">f5af97830f1f8f004cf365ba32050e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=adaf97830f1f8f004cf365ba32050e18"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>filtermatch</field>
+        <id>adaf97830f1f8f004cf365ba32050e18</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 15:36:50</sys_created_on>
+        <sys_id>7daf97830f1f8f004cf365ba32050e72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 15:36:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_adaf97830f1f8f004cf365ba32050e18</table>
+        <value>{{step[59f722d3-ba86-48b8-b15f-5fae30b17fd9].filterMatch}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>test_output</field>
+        <id>adaf97830f1f8f004cf365ba32050e18</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-01 15:36:50</sys_created_on>
+        <sys_id>31af97830f1f8f004cf365ba32050e73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-01 15:36:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_adaf97830f1f8f004cf365ba32050e18</table>
+        <value>{{action.ah_currentevent}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache/>
+        <latest_snapshot/>
+        <name>test script</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-30 23:32:59</sys_created_on>
+        <sys_id>d979f6ae0fd74f004cf365ba32050eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test script</sys_name>
+        <sys_package display_value="AwS Dash Button" source="x_8294_aws_dash">e8ea3f050f5b8b004cf365ba32050ec0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwS Dash Button">e8ea3f050f5b8b004cf365ba32050ec0</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_d979f6ae0fd74f004cf365ba32050eb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-30 23:32:59</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=d979f6ae0fd74f004cf365ba32050eb4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d979f6ae0fd74f004cf365ba32050eb4"/>
+</record_update>
